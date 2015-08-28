@@ -1,0 +1,11 @@
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\bin\Release\Pikabot4.exe
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\bin\Release\Pikabot4.pdb
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\Pikabot4.frmPikabot.resources
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\Pikabot4.Properties.Resources.resources
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\Pikabot4.exe
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\Pikabot4.pdb
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Release\GenerateResource-ResGen.write.1.tlog

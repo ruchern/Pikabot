@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAbout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAboutHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAboutHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnHome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnHomeHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnHomeHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnInfo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnInfoHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnInfoHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnLog.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLogHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnLogHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnLogin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnLoginHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPauseBot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnPauseBot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPauseBotHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnPauseBotHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSyncData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnSyncData.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSyncDataHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnSyncDataHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icoPikabot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\icoPikabot.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeCHEESE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeCHEESE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeCollen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeCollen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeLastCatchDataBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeLastCatchDataBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeLastCatchPicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeLastCatchPicture.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeLOCATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeLOCATION.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeTimeBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeTimeBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeTimeBarBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeTimeBarBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeTimeBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeTimeBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeUSERID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeUSERID.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHomeUSERID1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgHomeUSERID.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoApprentice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoApprentice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoBaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoBaron.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoBaroness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoBaroness.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoBase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoBase.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoBottomGrad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoBottomGrad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoCheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoCheese.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoCount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoCount.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoCountess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoCountess.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoDonor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoDonor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoGold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoGold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoGrandMaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoGrandMaster.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoHero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoHero.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoJourneyman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoJourneyman.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoKnight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoKnight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoLady" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoLady.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoLegendary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoLegendary.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoLocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoLocation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoLord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoLord.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoLordLady" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoLordLady.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoMaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoMaster.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoNovice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoNovice.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoPercent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoPercent.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoPoints" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoPoints.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoProgressBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoProgressBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoProgressBarBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoProgressBarBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoTopGrad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoTopGrad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoWeapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoWeapon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLogCatchesBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgLogCatchesBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLogCatchHolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgLogCatchHolder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLogDataBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgLogDataBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgLogin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLogPointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgLogPointer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgTopBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgTopBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgTopPointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgTopPointer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_abominable_snow_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_abominable_snow_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_acolyte_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_acolyte_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_archer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_archer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_assassin_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_assassin_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_balack_the_banished_K23KFS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_balack_the_banished_K23KFS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bat_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bat_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bbbourghs_7CUDO_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bbbourghs_7CUDO_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bear_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bear_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bionic_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bionic_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_birthday_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_birthday_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_black_widow_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_black_widow_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bottled_journal_FKE6G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bottled_journal_FKE6G.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_boulder_93JDNF_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_boulder_93JDNF_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_brimstone_12KNCI_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_brimstone_12KNCI_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_brown_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_brown_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_buccaneer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_buccaneer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_burglar_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_burglar_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_candycane_8DHFCP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_candycane_8DHFCP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_captain_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_captain_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_centaur_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_centaur_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_chameleon_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_chameleon_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_chitinous_JFRD9C_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_chitinous_JFRD9C_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cook_journal_E23GC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cook_journal_E23GC.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_coresample_7D81LM_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_coresample_7D81LM_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_costumedtiger_legOO_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_costumedtiger_legOO_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_crystal_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_crystal_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cupid_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cupid_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_curious_chemist_JDKQIC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_curious_chemist_JDKQIC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cyclops_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cyclops_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_davy_jones_4QWERT_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_davy_jones_4QWERT_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_demolitions_JFUCLP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_demolitions_JFUCLP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_aged_J39DNC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_aged_J39DNC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_chieftain_FHE83H_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_chieftain_FHE83H_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_conjurer_JFK39D_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_conjurer_JFK39D_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_gladiator_JFRI4D_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_gladiator_JFRI4D_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_grunt_ALC10B_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_grunt_ALC10B_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_guardian_J39DS9_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_guardian_J39DS9_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_healer_92JDC8_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_healer_92JDC8_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_lich_ID90D8_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_lich_ID90D8_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_mintaka_83JDCS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_mintaka_83JDCS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_renegade_JD93PD_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_renegade_JD93PD_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_seer_J493JC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_seer_J493JC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_spellbinder_8FJCS9_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_spellbinder_8FJCS9_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_trailblazer_897DCS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_trailblazer_897DCS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derr_wordsmith_10CJD8_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derr_wordsmith_10CJD8_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_diamond_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_diamond_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_digger_F80ASO_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_digger_F80ASO_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_dojo_sensai_D01JDC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_dojo_sensai_D01JDC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_draconic_warden_83JFYC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_draconic_warden_83JFYC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_dragon_WOW_A_DRAGON_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_dragon_WOW_A_DRAGON_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_dumplingchef_dChiE_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_dumplingchef_dChiE_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_dwarf_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_dwarf_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elf_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elf_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_alchemist_7GHHGH_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_alchemist_7GHHGH_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_alnitak_5H3LAZ_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_alnitak_5H3LAZ_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_champion_JFR98D_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_champion_JFR98D_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_chieftain_8FHDC7_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_chieftain_8FHDC7_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_elder_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_elder_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_lich_2K3J4H_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_lich_2K3J4H_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_mystic_76850C_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_mystic_76850C_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_pack_8FHTYY_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_pack_8FHTYY_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_protector_93JFC7_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_protector_93JFC7_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_scout_8GHQW1_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_scout_8GHQW1_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_soothsayer_HGFR8D_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_soothsayer_HGFR8D_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_taleweaver_123SD9_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_taleweaver_123SD9_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elub_vanquisher_983DV9_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elub_vanquisher_983DV9_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_elvenprincess_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_elvenprincess_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_enslaved_spirit_WER3XC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_enslaved_spirit_WER3XC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_fairy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_fairy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_foxy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_foxy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_frog_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_frog_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_frozen_7D8ACP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_frozen_7D8ACP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_gargoyle_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gargoyle_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_gateguardian_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gateguardian_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ghost_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ghost_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_giantsnail_SW4MP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_giantsnail_SW4MP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_glitchpaw_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_glitchpaw_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_goblin_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_goblin_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_gold_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gold_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_golem_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_golem_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_gorgon_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gorgon_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_granite_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_granite_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_grey_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_grey_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_gull_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gull_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hapless_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hapless_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_harpy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_harpy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hollowhead_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hollowhead_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hope_H0P3Z_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hope_H0P3Z_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hydra_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hydra_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_industriousdigger_8D09A1_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_industriousdigger_8D09A1_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_itty_bitty_bourghs_D7A8LC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_itty_bitty_bourghs_D7A8LC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_jurassic_29DJCS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_jurassic_29DJCS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_keepassist_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_keepassist_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_keeper_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_keeper_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_kung_fu_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_kung_fu_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_leviathan_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_leviathan_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_lich_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_lich_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_lycan_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_lycan_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_magma_HFRYD8C_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_magma_HFRYD8C_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mermaid_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mermaid_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mobster_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mobster_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mole_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mole_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_monk_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_monk_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_monster_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_monster_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_moosker_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_moosker_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_motc_belt_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_motc_belt_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_motc_claw_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_motc_claw_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_motc_fang_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_motc_fang_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mot_dojo_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mot_dojo_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mummy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mummy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mutated_grey_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mutated_grey_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mutated_white_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mutated_white_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_alnilam_923JF7_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_alnilam_923JF7_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_beasttamer_0239FSC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_beasttamer_0239FSC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_caretaker_92JF8C_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_caretaker_92JF8C_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_chieftain_012MN3_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_chieftain_012MN3_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_conqueror_MGH102_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_conqueror_MGH102_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_defender_923MDC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_defender_923MDC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_finder_938DJCS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_finder_938DJCS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_grandfather_20GHFB_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_grandfather_20GHFB_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_lich_8EIFKC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_lich_8EIFKC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_narrator_8IPEQQ_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_narrator_8IPEQQ_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_pathfinder_9FJVCD_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_pathfinder_9FJVCD_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nerg_slayer_92N4F89_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nerg_slayer_92N4F89_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_newyears_8D9FC0_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_newyears_8D9FC0_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nibbler_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nibbler_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ninja_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ninja_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nomad_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nomad_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nugget_8D9CHA_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nugget_8D9CHA_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_nutcracker_8DFHYT_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_nutcracker_8DFHYT_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ooze_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ooze_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ornament_QW1234_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ornament_QW1234_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_owl_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_owl_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_pinchy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_pinchy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_pirate_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_pirate_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_present_8F9CAP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_present_8F9CAP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_primal_82DHCA_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_primal_82DHCA_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ravenous_zombie_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ravenous_zombie_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_reaper_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_reaper_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_redenvelope_8392C_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_redenvelope_8392C_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_riptide_K2RKCS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_riptide_K2RKCS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_rockstar_YEEEAAH_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_rockstar_YEEEAAH_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_rock_muncher_D8CJAL_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_rock_muncher_D8CJAL_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_romeno_greezy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_romeno_greezy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_romeo_asstk_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_romeo_asstk_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_samurai_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_samurai_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_scavenger_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_scavenger_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_shaman_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_shaman_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_shipwrecked_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_shipwrecked_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_silth_4758CS_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_silth_4758CS_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_siren_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_siren_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_skeleton_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_skeleton_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_snapper_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_snapper_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_snowman_JD1LZX_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_snowman_JD1LZX_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sorcerer_FACES_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sorcerer_FACES_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sot_cheesebelt_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sot_cheesebelt_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sot_cheeseclaw_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sot_cheeseclaw_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sot_cheesefang_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sot_cheesefang_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_spectre_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_spectre_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_spider_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_spider_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_squeaken_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_squeaken_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_steel_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_steel_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_stockingstuffer_8DLMN_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_stockingstuffer_8DLMN_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_stone_cutter_LPQIFG_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_stone_cutter_LPQIFG_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_subterranian_8D9CLP_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_subterranian_8D9CLP_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_swabbie_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_swabbie_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_swamp_9DC0SA_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_swamp_9DC0SA_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_swarm_23ERTF_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_swarm_23ERTF_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sylvan_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sylvan_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_terrible_twos_BR4TY_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_terrible_twos_BR4TY_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_terrorknight_284HFC_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_terrorknight_284HFC_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tiger_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tiger_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_toy_NBHVLA_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_toy_NBHVLA_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_treant_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_treant_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_troll_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_troll_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_twisted_fiend_JDKC83_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_twisted_fiend_JDKC83_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_vampire_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_vampire_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_water_nymph_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_water_nymph_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_white_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_white_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_wiggler_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_wiggler_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_wight_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_wight_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_witch_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_witch_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_worker_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_worker_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_xmastree_A9DCLZ_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_xmastree_A9DCLZ_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_zombie_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_zombie_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\noImg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_clockwork_samurai_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_clockwork_samurai_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hapless_marionette_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hapless_marionette_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_master_burglar_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_master_burglar_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_puppet_master_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_puppet_master_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sock_puppet_ghost_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sock_puppet_ghost_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_toy_sylvan_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_toy_sylvan_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_wound_up_white_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_wound_up_white_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRBottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRBottom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRSubmit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRSubmit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRSubmitClicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRSubmitClicked.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRTextBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRTextBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRTop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRTop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_KR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_KR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_pillage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_pillage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_stalecheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_stalecheese.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_steal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_steal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnResumeBot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnResumeBot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnResumeBotHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnResumeBotHover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnResyncDataKRTemp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnResyncDataKRTemp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnResyncDataKRTempClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnResyncDataKRTempClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKRBottomTemp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgKRBottomTemp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bandit_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bandit_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_escape_artist_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_escape_artist_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_impersonator_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_impersonator_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_lockpick_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_lockpick_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_rogue_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_rogue_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_stealth_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_stealth_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAboutNews" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAboutNews.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAboutNewsClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAboutNewsClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAboutTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAboutTalk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAboutTalkClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAboutTalkClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgAboutBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgAboutBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_goldplus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_goldplus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_itemplus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_itemplus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_travel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_travel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_berserker_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_berserker_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cavalier_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cavalier_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_fencer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_fencer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_knight_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_knight_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_page_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_page_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_phalanx_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_phalanx_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAccounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAccounts.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAccountsClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAccountsClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAccountsSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAccountsSave.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAccountsSaveClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnAccountsSaveClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPnlAccountsBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgPnlAccountsBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lstUsernamesBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\lstUsernamesBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\rabOff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ranOn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lstUsernamesTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\lstUsernamesTab.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_whelpling_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_whelpling_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_cheesecraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_cheesecraft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cowbell_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cowbell_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_dancer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_dancer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_drummer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_drummer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_fiddler_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_fiddler_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_guqin_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_guqin_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoInitiate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoInitiate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfoRecruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\imgInfoRecruit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_titleup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_titleup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cowardly_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cowardly_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_pugilist_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_pugilist_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_aquos_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_aquos_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_black_mage_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_black_mage_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_farmhand_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_farmhand_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_field_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_field_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_flying_mouse_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_flying_mouse_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_ignis_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ignis_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_longtail_mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_longtail_mouse.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_scruffy_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_scruffy_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_silvertail_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_silvertail_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_spud_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_spud_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_terra_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_terra_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_zephyr_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_zephyr_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_cherry_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_cherry_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_eclipse_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_eclipse_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_fiend_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_fiend_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_necromancer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_ necromancer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_paladin_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_paladin_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_sacred_shrine_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_sacred_shrine_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_spotted_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_spotted_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_white_mage_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_white_mage_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_bronze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_bronze.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_gold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\log_silver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_lightning_rod_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_lightning_rod_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_bruticle_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_bruticle_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_derpicorn_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_derpicorn_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_firebreather_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_firebreather_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_firefly_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_firefly_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_fridgid_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_fridgid_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_harvester_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_harvester_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_harvest_harrier_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_harvest_harrier_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hot_head_mouse_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hot_head_mouse_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_hydrophobe_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_hydrophobe_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_icicle_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_icicle_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_monarch_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_monarch_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_bishop_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_bishop_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_king_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_king_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_knight_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_knight_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_pawn_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_pawn_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_queen_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_queen_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_mystic_rook_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_mystic_rook_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_overprepared_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_overprepared_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_penguin_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_penguin_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_puddlemancer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_puddlemancer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_pumpkin_head_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_pumpkin_head_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_scarecrow_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_scarecrow_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_spring_familiar_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_spring_familiar_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_stinger_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_stinger_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_summer_mage_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_summer_mage_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_bishop_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_bishop_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_king_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_king_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_knight_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_knight_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_pawn_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_pawn_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_queen_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_queen_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_tech_rook_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_tech_rook_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_vinetail_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_vinetail_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_whirleygig_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_whirleygig_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tanglefoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\tanglefoot.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_fall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ico_fall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ico_spring.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_summer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ico_summer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ico_winter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ballot_ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\ballot_ticket.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnOK.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnOKClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\btnOKClick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pnlAnnouncementBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ui\pnlAnnouncementBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mouse_gordborg_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_gordborg_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_realm_guardian_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_realm_guardian_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_snooty_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_snooty_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_treasurer_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_treasurer_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_treat_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_treat_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_trick_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_trick_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mouse_zombot_unipire_journal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mice\mouse_zombot_unipire_journal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

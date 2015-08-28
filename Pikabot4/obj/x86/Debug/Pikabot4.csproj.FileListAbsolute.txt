@@ -1,0 +1,51 @@
+C:\Users\Steve\Documents\My Dropbox\PikaBot4\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\Steve\Documents\My Dropbox\PikaBot4\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Steve\Documents\Visual Studio 2010\Projects\Pikabot4\Pikabot4\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\Steve\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Steve\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\v-yli\Documents\My Dropbox\MouseHunt\Pikabot4\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.exe
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.pdb
