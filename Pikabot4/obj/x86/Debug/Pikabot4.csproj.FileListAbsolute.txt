@@ -49,3 +49,9 @@ C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\ResGen.read.1
 C:\Users\Ru Chern\Documents\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\ResGen.write.1.tlog
 C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.exe
 C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.pdb
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\bin\Debug\Pikabot4.exe
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\bin\Debug\Pikabot4.pdb
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.csprojResolveAssemblyReference.cache
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.frmPikabot.resources
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.Properties.Resources.resources
+C:\Users\RuChern\Dropbox\Pikabot\Pikabot4\obj\x86\Debug\Pikabot4.csproj.GenerateResource.Cache
