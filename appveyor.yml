@@ -1,3 +1,2 @@
 - provider: Slack
-  incoming_webhook:
-    secure: https://hooks.slack.com/services/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
+  incoming_webhook: https://hooks.slack.com/services/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
