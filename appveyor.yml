@@ -1,2 +1,3 @@
-- provider: Slack
-  incoming_webhook: https://hooks.slack.com/services/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
+deploy:
+  - provider: Slack
+    incoming_webhook: https://hooks.slack.com/services/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
